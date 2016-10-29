@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-8.1.0_3798cd2923cea226cabba1200896ec1b7b90ce09/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/majunqi0102/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.1/761ea405b9b37ced573d2df0d1e3a4e0f9edc668/commons-collections-3.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="761ea405b9b37ced573d2df0d1e3a4e0f9edc668">
+        <dex dex="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/transforms/dex/debug/folders/1000/10/commons-collections-3.2.1_2382885c242dd55582b030c43ede56365406c217/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-8.1.0_8d9311672e3ffddab06236e57b2a0eb9690ddcf8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="993834cb17d07d51b92db89d2c330243592ebf77">
+        <dex dex="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-games-8.1.0_52f882e930e9d0af61b64064a5e2a32a4d804674/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
+        <dex dex="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-22.2.0_2070616ec738bb81819726a544e17c4a9aa977bf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d294caf562c4c678b2ef351662a0ca6f1a4d06c0">
+        <dex dex="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-8.1.0_9197d03583ab5a68cb0af26407f7bd2639d6f028/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="325788a04b436a0bccbc5b4c54cf0f12ebdcbd2d">
+        <dex dex="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-8.1.0_9d3716d1be261e316f03346f5b4ea8d9889f39e0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="997773777cf3904c11d6764fe3b7668538220e49">
+        <dex dex="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-8.1.0_13602f05d8abba97cb61ae5736d73eff2e39b535/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
+        <dex dex="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-22.2.0_45bb19a695daf5aa0f441d9f1aef1d2e0593aae4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="97f3b099801a9ad9d70e835b9125273e986eb68d">
+        <dex dex="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-8.1.0_42b5918de754898557aa3c8effb46b0784ba3bc2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="95758a2905669affbffc5ddd262921d375674fad">
+        <dex dex="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-8.1.0_de766d10fb67a9927a7987a63e596bc9712fa916/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3c729e6d76a36c5dc27e6a4c4009296f49eaa88a">
+        <dex dex="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-8.1.0_9a87dbdab09b2d58d8a136edbfc6429cdf5f8a34/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/majunqi0102/.gradle/caches/modules-2/files-2.1/commons-beanutils/commons-beanutils/1.9.2/7a87d845ad3a155297e8f67d9008f4c1e5656b71/commons-beanutils-1.9.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="7a87d845ad3a155297e8f67d9008f4c1e5656b71">
+        <dex dex="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/transforms/dex/debug/folders/1000/10/commons-beanutils-1.9.2_f0a94772fc08d2603e0009a39f1a1e53e9069260/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2a7e47da654546f9457deb6132364f1bf33a1857">
+        <dex dex="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-8.1.0_fa69f9504aa8fc33580986b789a2021a5547e566/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/majunqi0102/.gradle/caches/modules-2/files-2.1/com.opencsv/opencsv/3.8/248d4d05fe253a02a05601978f7de1305b8a961e/opencsv-3.8.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="248d4d05fe253a02a05601978f7de1305b8a961e">
+        <dex dex="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/transforms/dex/debug/folders/1000/10/opencsv-3.8_637d569ff1816136acb6467631b83113546b0ad9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="17449c47df35c754b257532052f1270c444f7993">
+        <dex dex="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-vision-8.1.0_eabe21037e2a4ba962677e634e9f9c611d95f789/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d61920aba361832a9545a43fa8c9453eb02f18f7">
+        <dex dex="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-8.1.0_7f63556c5667a54f37d325e0fe8b4f0ad71dafac/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.0.1_41de6eeff128daf385e79a1ea4fd7a28405f086d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/majunqi0102/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.4/5fe28b9518e58819180a43a850fbc0dd24b7c050/commons-lang3-3.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5fe28b9518e58819180a43a850fbc0dd24b7c050">
+        <dex dex="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/transforms/dex/debug/folders/1000/10/commons-lang3-3.4_6fd7f7375da75f510c549641783163e6a8476966/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="82825756edeeb3b56b15e73b2edd56e93da5a444">
+        <dex dex="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-8.1.0_3c06284f1421d5694465d78476b19d4d3414b5de/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3aed37c38c56679602255dd72ef356da5d327cda">
+        <dex dex="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-8.1.0_9f31c7f3beb6fccd1a037292431b7619654cb77d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/majunqi0102/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_35a5934e8ce51a64dd45c02f4b4955c8588509b7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d93480da1d303122ee67dc3bc23e6297bdef9951">
+        <dex dex="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-8.1.0_1b684652c7a06590aeb5dd2d772ebb89f027ecf9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/majunqi0102/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.0.1_671c665058e2ec1425d520a068a390619d490def/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="b92002cb2f0e11a226ac5bac6dff1dc2a9d0b774">
+        <dex dex="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-8.1.0_cea8e2b98eaf617139df43ff2fb06725502f3e83/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3178362320bcf51228835b60ff978efadfd1f783">
+        <dex dex="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-8.1.0_b2571c8dbf32a1ab4ddeaeb8520bbe81b26a542d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3b05c18f60969ecc2ba49c0409c4b96be2d9cb0c">
+        <dex dex="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-8.1.0_ba713e4bea10fb38f8e7c5ea558220720e834360/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="482de223655d06253cc6a4955d653f8994169500">
+        <dex dex="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-measurement-8.1.0_bc34b951a7189e9b48a071124f29e21f5fe1fdae/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="0e21903e10c987ca3605a72a3900292d16055cec">
+        <dex dex="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_eecb250bec688658e00160c6e11dd25198b1bf25/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.0.1_53f00dad5193da8d13c8c1a68bf75b2874ca7b7a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.0.1_65b109414a72ce974e70a75cc49e9a664d52c2cb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9c9f09834d0c094d100210102ad33914f4081174">
+        <dex dex="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_6dd7e8794df1b0a9e437fc66cee0336ef143bb7e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="041d93cf0533591c29d1d7263b2fa114dbfb20bd">
+        <dex dex="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-nearby-8.1.0_dec36e146da5c06069fcc5a73e06d88910d8a754/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9cf8c0ef60847621c7ad00b4f78dbfc9daba4af2">
+        <dex dex="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-8.1.0_842503f28a9be81ed2951c1d48a2a4bb946cf194/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="dcb5b75baf05d92e61d5706737200ee55949f97b">
+        <dex dex="/Users/majunqi0102/AndroidStudioProjects/GoogleMapsTutorial/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-8.1.0_42f425bbce7e1baff41e8971e14394d3e6e7a239/classes.dex" />
+    </item>
+
+</items>
