@@ -1,0 +1,15 @@
+bash
+sd
+cd workspace
+rfkill list
+rfkill unblock bluetooth
+bluetoothctl
+agent DisplayYesNo
+default-agent
+scan on
+discoverable on
+pair XX:XX:XX:XX:XX:XX #XXX is Android BT MAC
+connect XX:XX:XX:XX:XX:XX
+trust XX:XX:XX:XX:XX:XX
+quit
+python BTsensor.py -C 22
