@@ -6,17 +6,11 @@ import Entity.MapsTable;
 import Util.GPSTracker;
 import Util.Util;
 import android.Manifest;
-import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.graphics.Picture;
-import android.graphics.drawable.PictureDrawable;
-import android.location.Geocoder;
 import android.location.Location;
-import android.location.LocationListener;
-import android.location.LocationManager;
 import android.media.ExifInterface;
 import android.net.Uri;
 import android.os.Bundle;
@@ -74,8 +68,6 @@ public class MapsActivity extends FragmentActivity {
             ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 1);
             ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.ACCESS_COARSE_LOCATION}, 1);
         }
-//        ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 1);
-//        ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.ACCESS_COARSE_LOCATION}, 1);
 
         gps = new GPSTracker(MapsActivity.this);
         List<String[]> image_list = readImages();
@@ -325,7 +317,7 @@ public class MapsActivity extends FragmentActivity {
                     bitmap = bitmap.createScaledBitmap(bitmap, 200, 200, false);
 //                Bitmap bitmap = Bitmap.createBitmap(image[0])
                     BitmapDescriptor icon = BitmapDescriptorFactory.fromBitmap(bitmap);
-                    mMap.addMarker(new MarkerOptions().position(new LatLng(Double.parseDouble(image[2]), Double.parseDouble(image[3]))).snippet(image[4]+", "+image[5]+","+image[6]).title(Util.truncateFileName(image[0])).icon(icon));
+                    mMap.addMarker(new MarkerOptions().position(new LatLng(Double.parseDouble(image[2]), Double.parseDouble(image[3]))).snippet(image[4]+", "+image[5]+","+image[6]+","+image[7]+","+image[8]+","+image[9]).title(Util.truncateFileName(image[0])).icon(icon));
                 } catch (FileNotFoundException e) {
                     e.printStackTrace();
                 } catch (IOException e) {
