@@ -61,6 +61,7 @@ public class MapsActivity extends FragmentActivity {
 
     private String dataFromEdison = "";
     private boolean received = false;
+    private boolean connected = false;
 
     private GoogleMap mMap; // Might be null if Google Play services APK is not available.
     private Button picButton; //takes user to camera
@@ -121,6 +122,7 @@ public class MapsActivity extends FragmentActivity {
 
         // Initialize the buffer for outgoing messages
         mOutStringBuffer = new StringBuffer("");
+
     }
 
     @Override
@@ -310,6 +312,7 @@ public class MapsActivity extends FragmentActivity {
                     switch (msg.arg1) {
                         case BluetoothChatService.STATE_CONNECTED:
                             setStatus(getString(R.string.title_connected_to, mConnectedDeviceName));
+                            connected = true;
 //                            mConversationArrayAdapter.clear();
                             break;
                         case BluetoothChatService.STATE_CONNECTING:
@@ -318,6 +321,7 @@ public class MapsActivity extends FragmentActivity {
                         case BluetoothChatService.STATE_LISTEN:
                         case BluetoothChatService.STATE_NONE:
                             setStatus(R.string.title_not_connected);
+                            connected = false;
                             break;
                     }
                     break;
@@ -375,9 +379,13 @@ public class MapsActivity extends FragmentActivity {
                 return true;
             }
             case R.id.take_a_picture: {
-                sendMessage("start");
-                dispatchTakePictureIntent();
-                return true;
+                if (connected) {
+                    sendMessage("start");
+                    dispatchTakePictureIntent();
+                    return true;
+                } else {
+                    Toast.makeText(getApplicationContext(), "Please connect to Edison first!", Toast.LENGTH_SHORT).show();
+                }
             }
         }
         return false;
