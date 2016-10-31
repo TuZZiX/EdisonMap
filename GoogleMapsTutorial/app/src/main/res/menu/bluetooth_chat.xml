@@ -35,7 +35,7 @@
     <item android:id="@+id/take_a_picture"
         android:title="@string/taking_picture"
         android:orderInCategory="100"
-        android:icon="@drawable/selfie_bk"
+        android:icon="@drawable/selfie_bk_ban"
         android:showAsAction="always|withText"/>
 
 

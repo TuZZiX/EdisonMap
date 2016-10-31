@@ -6,6 +6,7 @@ import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
 import android.os.Handler;
 import android.os.Message;
+import android.support.v4.view.MenuItemCompat;
 import android.view.*;
 import android.view.inputmethod.EditorInfo;
 import android.widget.*;
@@ -66,6 +67,7 @@ public class MapsActivity extends FragmentActivity {
     private GoogleMap mMap; // Might be null if Google Play services APK is not available.
     private Button picButton; //takes user to camera
     private GPSTracker gps;
+    private MenuItem shootItem;
 
     // Intent request codes
     public static final int REQUEST_CONNECT_DEVICE_SECURE = 1;
@@ -202,6 +204,7 @@ public class MapsActivity extends FragmentActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.bluetooth_chat, menu);
+        shootItem = menu.findItem(R.id.take_a_picture);
         return true;
     }
 //
@@ -313,6 +316,8 @@ public class MapsActivity extends FragmentActivity {
                         case BluetoothChatService.STATE_CONNECTED:
                             setStatus(getString(R.string.title_connected_to, mConnectedDeviceName));
                             connected = true;
+                            if (shootItem != null)
+                                shootItem.setIcon(R.drawable.selfie_bk);
 //                            mConversationArrayAdapter.clear();
                             break;
                         case BluetoothChatService.STATE_CONNECTING:
@@ -322,6 +327,8 @@ public class MapsActivity extends FragmentActivity {
                         case BluetoothChatService.STATE_NONE:
                             setStatus(R.string.title_not_connected);
                             connected = false;
+                            if (shootItem != null)
+                                shootItem.setIcon(R.drawable.selfie_bk_ban);
                             break;
                     }
                     break;
