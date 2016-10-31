@@ -1,15 +1,18 @@
 package ted.bluetoothsensorreader;
 
+import android.Manifest;
 import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.util.Log;
@@ -50,7 +53,6 @@ public class BluetoothSensorFragment extends Fragment {
     public void onCreate (Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setHasOptionsMenu(true);//do I need this?
-
         mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
         // Check if Bluetooth is supported on this device
         if (mBluetoothAdapter == null){

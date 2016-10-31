@@ -252,8 +252,10 @@ public class BluetoothSensorService {
                     }
                     else{
                         //write to CSV
-                        String timestamp = DateFormat.getTimeInstance().format((new Date()));
-                        csvWriter.writeLine(timestamp + "," + result);
+                        //TODO:  这段代码改过
+//                        String timestamp = DateFormat.getTimeInstance().format((new Date()));
+//                        csvWriter.writeLine(timestamp + "," + result);
+                        csvWriter.writeLine(result);
                     }
                     Log.d(TAG, "Received data " + result);
                 } catch (IOException e) {
