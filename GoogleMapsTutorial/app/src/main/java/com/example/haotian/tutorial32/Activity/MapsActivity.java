@@ -343,13 +343,6 @@ public class MapsActivity extends FragmentActivity {
                     // construct a string from the valid bytes in the buffer
                     dataFromEdison = new String(readBuf, 0, msg.arg1);
                     received = true;
-//                    Toast.makeText(getApplicationContext(), dataFromEdison, Toast.LENGTH_SHORT).show();
-//                    //CB Here we'll save readMessage in a CSV file
-//                    String[] incomingData = readMessage.split(",");
-//                    if (incomingData.length==4) //AB CB we have 4 sensor values in the format 45,65,45....?
-//                        saveCSV(incomingData);
-//                    else System.out.println("Chat recieved Does not comply...");
-//                    mConversationArrayAdapter.add(mConnectedDeviceName + ":  " + readMessage);
                     break;
                 case Constants.MESSAGE_DEVICE_NAME:
                     // save the connected device's name
@@ -406,8 +399,7 @@ public class MapsActivity extends FragmentActivity {
      */
     private void connectDevice(Intent data, boolean secure) {
         // Get the device MAC address
-        String address = data.getExtras()
-                .getString(DeviceListActivity.EXTRA_DEVICE_ADDRESS);
+        String address = data.getExtras().getString(DeviceListActivity.EXTRA_DEVICE_ADDRESS);
         // Get the BluetoothDevice object
         BluetoothDevice device = mBluetoothAdapter.getRemoteDevice(address);
         // Attempt to connect to the device
@@ -511,9 +503,6 @@ public class MapsActivity extends FragmentActivity {
                         Location location = gps.getLocation();
                         latitude = gps.getLatitude();
                         longitude = gps.getLongitude();
-
-                        // \n is for new line
-//                        Toast.makeText(getApplicationContext(), "Your Location is - \nLat: " + latitude + "\nLong: " + longitude, Toast.LENGTH_LONG).show();
                     } else {
                         // Can't get location.
                         // GPS or network is not enabled.
@@ -543,18 +532,8 @@ public class MapsActivity extends FragmentActivity {
                             e.printStackTrace();
                         }
                     }
-
                     //once received message, reset it to false for next message.
                     received = false;
-
-//                    String dataFromEdison = "{" +
-//                            "    \"data\" : {\"Moisture\": 10," +
-//                            "    \"Light\": 512," +
-//                            "    \"Temp\": 26," +
-//                            "    \"Humi\": 26," +
-//                            "    \"UV\": 0," +
-//                            "    \"PIR\": 0}" +
-//                            "}";
 
                     try {
                         JSONObject jsonRootObject = new JSONObject(dataFromEdison);
@@ -602,18 +581,6 @@ public class MapsActivity extends FragmentActivity {
 //                        String[] exif = readExifLocation(photo_dir);
 //                        if(exif[0] == null || exif[1] == null || exif[2] == null)
 //                            continue;
-                        /*
-                        private String photo;
-    private String timestamp;
-    private double latitude;
-    private double longitude;
-    private double moisture;
-    private double light;
-    private double temp;
-    private double humi;
-    private double UV;
-    private int PIR;
-                         */
                         if (mapsTable.isEmpty() || mapsTable == null)
                             mapsDao.readCSV(mapsTable, csv_dir);
                         int index = mapsTable.find(photo_dir);
