@@ -552,10 +552,10 @@ void setup()
 
   printSettings();
 
-  Timer1.initialize( 20000 );             /* set a timer of length 2000 microseconds */
-  Timer1.attachInterrupt( timerIsr );     /* attach the service routine here */
-  //attachInterrupt( pinEncoder2, EncoderISR, FALLING );
-  attachInterrupt( pinEncoder1, EncoderISR, FALLING );
+  //Timer1.initialize( 20000 );             /* set a timer of length 2000 microseconds */
+  //Timer1.attachInterrupt( timerIsr );     /* attach the service routine here */
+  attachInterrupt( pinEncoder2, EncoderISR, FALLING );
+  //attachInterrupt( pinEncoder1, EncoderISR, FALLING );
 }
 
 
@@ -590,7 +590,7 @@ void displayMenu()
   if ( millis() - curtime > 500 )
   {
     /* noInterrupts(); */
-    //RequestHandler();
+    RequestHandler();
     switch ( MenuIndex )
     {
     case (THSensorIndex):

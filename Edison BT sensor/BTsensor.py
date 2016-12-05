@@ -60,7 +60,11 @@ def init():
 	LCD.setCursor(0,0)
 	LCD.setColor(53, 39, 249)
 	LCD.backlightOn()
-	LCD.write(str("Running BT socket server"))
+	LCD.autoscrollOn()
+	LCD.write(str("Running BT"))
+	LCD.setCursor(1,0)
+	LCD.write(str("Socket Server"))
+
 		# if relay.isOn() == True:
 		#	 relay.off()
 		# else:
@@ -89,13 +93,16 @@ def printSensor():
 
 def getJSON():
 	data = {
-		"TimeStamp": time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()),
-		"Moisture": moisture.value(),
-		"Light": light.value(),
-		"Temp": tempHumi.getTemperature(),
-		"Humi": tempHumi.getHumidity(),
-		"UV": UV.readFloat(),
-		"PIR": PIR.read()}
+		"data": {
+			"TimeStamp": time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()),
+			"Moisture": moisture.value(),
+			"Light": light.value(),
+			"Temp": tempHumi.getTemperature(),
+			"Humi": tempHumi.getHumidity(),
+			"UV": UV.readFloat(),
+			"PIR": PIR.read()
+		}
+	}
 	json_str = json.dumps(data)
 	return json_str
 
@@ -127,7 +134,7 @@ class Profile(dbus.service.Object):
 
 		server_sock = socket.fromfd(self.fd, socket.AF_UNIX, socket.SOCK_STREAM)
 		server_sock.setblocking(1)
-		server_sock.send("Send \"start\" to recive current sensor data in JSON format")
+		#server_sock.send("Send \"start\" to recive current sensor data in JSON format")
 
 		try:
 			while True:
