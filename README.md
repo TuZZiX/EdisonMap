@@ -1,4 +1,6 @@
-# lab03
+# EECS410 Mobile Health
+
+Google Maps and Intel Edison Sensor Kit Bluetooth Integration
 
 ## Edison BT sensor
 
